@@ -14,7 +14,7 @@
             <table class="table">
                 <tr>
                     <th>Id</th>
-                    <th>Nome</th>
+                    <th>Titulo</th>
                     <th>ISBN</th>
                     <th>Gênero</th>
                     <th>&nbsp;</th>
@@ -22,7 +22,7 @@
                 <c:forEach var="item" items="${livros}">
                     <tr>
                         <td>${item.id}</td>
-                        <td>${item.nome}</td>
+                        <td>${item.titulo}</td>
                         <td>${item.isbn}</td>
                         <td>${item.genero.nome}</td>
                         <td>

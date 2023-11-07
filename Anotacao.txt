@@ -57,3 +57,17 @@ public class Livro {
 }
 
 
+Depois temos que adcionar um arquivo .java que será o repository da entidade 
+
+
+package application.model;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface LivroRepository  extends CrudRepository<Livro, Integer> {
+   LivrofindBytTitulo(String titulo) // não necessário, pois é uma consulta por atributo;
+}
+
+
+
+
